@@ -115,8 +115,8 @@ p{
 }
 
 .hexagon {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     background-color: var(--light-grey);
     position: relative;
     margin: 50px auto;
@@ -128,9 +128,9 @@ p{
       0% 75%,   /* Bottom left */
       0% 25%    /* Top left */
     );
-    border-radius: 15px; /* Optional for additional rounding */
+    border-radius: 20px; /* Optional for additional rounding */
     overflow: visible;
-    transform:translatex(-90%);
+    transform:translatex(-50%);
 }
 .hexagon-content>div{
     position: absolute; 
@@ -149,19 +149,23 @@ p{
 .webdev{
 
     margin-top:150px ;
-    translate: 100px 0px;
+    translate: 50px 50px;
+    padding:5px;
 }
 .ux-design{
     
-    transform:translate(150px ,250px);
+    transform:translate(100px ,350px);
+    padding:5px;
 }
 .app-design{
     
-    transform:translate(350px ,230px);
+    transform:translate(380px ,320px);
+    padding:5px;
 }
 .machine-learning{
     
-    transform:translate(350px ,110px);
+    transform:translate(350px ,150px);
+    padding:5px;
 }
 .flex-container{
     
@@ -210,12 +214,12 @@ p{
    
 }
 .rotate-hr{
-     
-  position: absolute;
-  height: 285px; 
+    position: absolute;
+ 
+   
+   height: 285px; 
   margin-left: -30px; 
-  top: -10px; 
-  
+  top: -10px;
   
   
 }
@@ -238,7 +242,7 @@ p{
 }
 .latest-work{
     margin:0px 90px;
-    padding-top: 20px;
+    padding: 30px 0px;
    
 }
 .image{
